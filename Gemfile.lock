@@ -1,5 +1,7 @@
-PATH
-  remote: /Users/fnichol/Projects/github/capistrano-lastmile
+GIT
+  remote: git://github.com/fnichol/capistrano-lastmile.git
+  revision: a089a7f1d72b110b20b2cd494f110bc7d1ae6b25
+  branch: multi-app-type
   specs:
     capistrano-lastmile (0.0.1)
       capistrano (~> 2.5.19)
@@ -25,12 +27,13 @@ GEM
     net-ssh-gateway (1.0.1)
       net-ssh (>= 1.99.1)
     rack (1.2.1)
-    rvm (1.2.7)
+    rvm (1.6.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  capistrano
   capistrano-ext
   capistrano-lastmile!
   rack
